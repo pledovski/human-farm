@@ -1,0 +1,231 @@
+body {
+  font: 20px/1.3 'BasisGrotesquePro-Regular', 'CircularStd-Medium';
+  letter-spacing: 1px;
+  color: #1C1C4A;
+  padding: 0;
+  margin: 0;
+}
+/* Global */
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  font-family: 'CircularStd-Book';
+  background-color: white;
+  color: #000000;
+  min-height: 110px;
+  position: fixed;
+  padding: 0%;
+  width: 100%;
+}
+
+header a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+
+header a:hover {
+  color: #FF6D00;
+}
+
+header #branding img{
+  width: 45px;
+  height: 58px;
+  position: relative;
+  margin-top: 21px;
+}
+
+header h1 {
+  display: inline;
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+
+header nav {
+  margin-top: 51px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+#showcase {
+  padding-top: 186px;
+  padding-bottom: 186px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase-box1 {
+  width: 45%;
+}
+
+.showcase-box1 p {
+  font-family: 'BasisGrotesquePro-Light';
+  font-size: 58px;
+}
+
+.showcase-box-1-bold {
+  font-family: 'CircularStd-Bold';
+}
+
+.showcase-box2 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.showcase-box2 #showcase-2-title p {
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: 'BasisGrotesquePro-Light';
+}
+
+.showcase-box2 a {
+  font-family: 'CircularStd-Medium';
+  font-size: 16px;
+  color: #FF6D00;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  flex-basis: 200px;
+  padding: 10px 80px 10px 0;
+  border-bottom: #FF6D00 3px solid;
+}
+
+.section-background {
+  background-color: #F9F9F9;
+  height: 861px;
+}
+
+
+/* What do we offer */
+#what-we-offer {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-2-title {
+  display: flex;
+  flex-direction: row;
+  padding-top: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+#container-2-title h2 {
+  font-family: 'CircularStd-Bold';
+  font-size: 30px;
+  flex: 1;
+}
+
+#container-2-title p {
+  font-family: 'BasisGrotesquePro-Light';
+  font-size: 16px;
+  line-height: 1.8;
+  flex: 2;
+}
+
+#section-2-list {
+  display: inline-flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.options {
+  width: 200px;
+  margin: 40px 0 50px 0;
+  margin-right: 50px; 
+  padding-bottom: 10px;
+  border-bottom: #1C1C4A 1px solid;
+}
+
+.options:hover {
+  border-bottom: #FF6D00 1px solid;
+}
+
+#section-2-list a:hover {
+  color: #FF6D00;
+}
+
+#section-2-list a {
+  font-family: 'CircularStd-Medium';
+  font-size: 20px;
+  color: #1C1C4A;
+  text-decoration: none;
+}
+
+#section-2-list i {
+  float: right;
+  color: #FF6D00;
+  margin-top: 3px;
+}
+
+/* Benefits */
+.container-3 {
+  display: flex;
+  position: relative;
+  margin-left: 7%;
+  margin-top: -370px;
+  background-color: #1B166F;
+  padding: 54px 0 100px 0;
+}
+
+#benefits {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.container-3-title {
+  margin: 0 15% 0 15%;
+  width: 80%;
+}
+
+.container-3-title h2 {
+  font-family: 'CircularStd-Bold';
+  font-size: 30px;
+}
+
+.container-3-title p {
+  font-family: 'BasisGrotesquePro-Light';
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.container-3-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.box-benefits {
+  flex-basis: 25%;
+  margin: 30px 80px 0 0;
+}
+
+.box-benefits img {
+  width: 66px;
+  height: 66px;
+}
+
+.box-benefits h3 {
+  font-family: 'CircularStd-Book';
+  font-size: 16px;
+}
+
+/* Our clients */
+
