@@ -44,12 +44,12 @@ header #branding img{
   height: 58px;
   position: relative;
   margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 header h1 {
   display: inline;
   padding-left: 20px;
-  margin-bottom: 100px;
 }
 
 header nav {
@@ -208,7 +208,7 @@ header nav {
 
 .container-3-title {
   margin: 0 15% 0 7%;
-  flex-basis: %;45
+  flex-basis: 45%;
 }
 
 .container-3-title h2 {
