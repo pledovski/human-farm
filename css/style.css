@@ -246,4 +246,55 @@ header nav {
 }
 
 /* Our clients */
+.our-clients {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-content: center;
+}
 
+#container-4-title {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+#container-4-title h2 {
+  flex: 1;
+}
+
+#container-4-title p {
+  flex: 2;
+}
+
+#box-clients {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#box-clients .client {
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+#box-clients .client h2 {
+  font-family: 'BasisGrotesquePro-Light';
+  font-size: 16px;
+}
+
+#box-clients .client a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#box-clients img {
+  width: 77px;
+  height: 77px;
+}
