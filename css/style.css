@@ -64,7 +64,7 @@ header nav {
 /* Showcase. Section 1. */
 .showcase {
   padding-top: 186px;
-  padding-bottom: 156px;
+  padding-bottom: 250px;;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,7 +115,7 @@ header nav {
 .arrow {
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 70px;
 }
 
 .arrow i {
@@ -137,9 +137,10 @@ header nav {
 #container-2-title {
   display: flex;
   flex-direction: row;
+  flex-basis: 100%;
   padding-top: 70px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 #container-2-title h2 {
@@ -152,7 +153,8 @@ header nav {
   font-family: 'BasisGrotesquePro-Light';
   font-size: 16px;
   line-height: 1.8;
-  flex: 2;
+  padding-left: 10%;
+  flex: 1;
 }
 
 #section-2-list {
@@ -204,6 +206,7 @@ header nav {
 .benefits {
   flex-direction: row;
   color: white;
+  align-content: flex-start
 }
 
 .container-3-title {
