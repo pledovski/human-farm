@@ -98,7 +98,7 @@ header nav {
   font-family: 'BasisGrotesquePro-Light';
 }
 
-.showcase-box2 a {
+.showcase-box2 a, #want-to-know a{
   font-family: 'CircularStd-Medium';
   font-size: 16px;
   color: #FF6D00;
@@ -106,7 +106,7 @@ header nav {
   text-decoration: none;
   text-transform: uppercase;
   flex-basis: 200px;
-  padding: 10px 80px 10px 0;
+  padding: 0 80px 7px 0;
   border-bottom: #FF6D00 3px solid;
 }
 
@@ -421,3 +421,75 @@ header nav {
 .secondary-paragraph {
   color: #FF6D00;
 }
+
+/* Want to know */
+#request {
+  background-color: #F9F9F9;
+  margin: 0%;
+  padding: 50px 0;
+}
+
+#want-to-know {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#want-to-know p {
+  margin-right: 10%;
+  margin-top: 20px;
+}
+
+#want-to-know a {
+  margin-top: 20px;  
+}
+
+#request hr {
+  background-color: grey;
+  margin-top: 50px;
+  width: 70%;
+}
+
+
+/* Footer */
+
+footer {
+  background-color: #F9F9F9;
+}
+
+#footer-content {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-box h4 {
+  font-family: 'BasisGrotesquePro-Light';
+  font-weight: lighter;
+  font-size: 16px
+}
+
+.footer-box a {
+  font-family: 'CircularStd-Book';
+  font-size: 12px;
+  padding: 5px 0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#subscribe-form h4 {
+  font-family: 'BasisGrotesquePro-Light';
+  font-weight: lighter;
+  font-size: 16px
+}
+
+
+
+/* Form */
