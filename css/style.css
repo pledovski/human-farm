@@ -9,7 +9,7 @@ body {
 .container {
   width: 70%;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   margin: auto;
   overflow: hidden;
 }
@@ -21,6 +21,8 @@ header {
   color: #000000;
   min-height: 110px;
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
   padding: 0%;
   width: 100%;
 }
@@ -30,8 +32,7 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
-  display: flex;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
 }
 
 header a:hover {
@@ -56,22 +57,28 @@ header nav {
   margin-left: 70px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-#showcase {
+
+/* Showcase. Section 1. */
+.showcase {
   padding-top: 186px;
-  padding-bottom: 186px;
+  padding-bottom: 156px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .showcase-box1 {
-  width: 45%;
+  flex-basis: 45%;
 }
 
-.showcase-box1 p {
+.showcase-box1 h1 {
   font-family: 'BasisGrotesquePro-Light';
+  font-weight: lighter;
+  display: inline;
   font-size: 58px;
 }
 
@@ -103,14 +110,26 @@ header nav {
   border-bottom: #FF6D00 3px solid;
 }
 
+
+/* Arrow */
+.arrow {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.arrow i {
+  color: #FF6D00;
+}
+
+
+/* What do we offer */
 .section-background {
   background-color: #F9F9F9;
   height: 861px;
 }
 
-
-/* What do we offer */
-#what-we-offer {
+.what-we-offer {
   display: flex;
   flex-direction: column;
 }
@@ -159,7 +178,7 @@ header nav {
 #section-2-list a:hover {
   color: #FF6D00;
 }
-
+/* Legacy. Make all hovered area as common. */
 #section-2-list a {
   font-family: 'CircularStd-Medium';
   font-size: 20px;
@@ -177,21 +196,20 @@ header nav {
 .container-3 {
   display: flex;
   position: relative;
-  margin-left: 7%;
-  margin-top: -370px;
+  margin-left: 10%;
+  margin-top: -330px;
   background-color: #1B166F;
-  padding: 54px 0 100px 0;
+  padding: 54px 0 70px 0;
 }
 
-#benefits {
-  display: flex;
+.benefits {
   flex-direction: row;
   color: white;
 }
 
 .container-3-title {
-  margin: 0 15% 0 15%;
-  width: 80%;
+  margin: 0 15% 0 7%;
+  flex-basis: %;45
 }
 
 .container-3-title h2 {
@@ -209,12 +227,12 @@ header nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .box-benefits {
-  flex-basis: 25%;
-  margin: 30px 80px 0 0;
+  flex-basis: 50%;
+  margin: 30px 0 0 0;
 }
 
 .box-benefits img {
